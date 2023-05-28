@@ -34,7 +34,7 @@ const Login=(props)=>{
  <Form class="loginInput" onChange={getPassword} type="password" placeholder="Password" />
  {props.logReg && <Form class="loginInput" type="password" placeholder="Confirm Password" />}
  
- <Button class='loginRegBtn'type="submit" text={props.logReg? "Register" : "Login"} click={check} />
+ <Button class='loginRegBtn'type="submit" text={props.logReg? "Register" : "Login"} click={{}} />
  <p></p>
     </>
 }
