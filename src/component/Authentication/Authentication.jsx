@@ -1,6 +1,6 @@
 import {useState} from 'react';
-import Login from "./Login";
-import Button from './Button'
+import Login from "../Authentication/Login";
+import Button from '../Authentication/Button'
 
 
 
